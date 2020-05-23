@@ -3,9 +3,12 @@ import org.apache.log4j.Logger;
 import org.apache.poi.ss.formula.functions.Column;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
@@ -119,9 +122,17 @@ public void  FillDetialsUsingParameter(String firstname,String lastname,String u
 
 
     }
+
+    public void screenShot() throws IOException {
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        FileUtils.copyFile(source,new File("./screenshot/"+logger.getName()+"screenshot.png"));
+
+    }
     @AfterMethod
-    public void teardown()
-    {
+    public void teardown() throws IOException {
+        screenShot();
         driver.quit();
     }
 

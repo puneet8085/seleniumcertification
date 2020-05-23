@@ -13,11 +13,7 @@
 
         <classes>
             <class name ="Selenium">
-                <methods>
-                    <include name="FIllDetailsFromExcelAndWriteInExcel"/>
-                </methods>
             </class>
-            <
         </classes>
     </test>
 </suite>

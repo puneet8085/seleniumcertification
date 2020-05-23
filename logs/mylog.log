@@ -149,3 +149,21 @@
 2020-05-23 12:39:15-main[ mainid]  INFO  Selenium:104 -tester
 2020-05-23 12:39:15-main[ mainid]  INFO  Selenium:106 -tester
 2020-05-23 12:39:17-main[ mainid]  INFO  Selenium:116 -testQAInfosys
+2020-05-23 12:47:05-main[ mainid]  INFO  Selenium:29 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 12:47:05-main[ mainid]  INFO  Selenium:30 -Site opened successfully
+2020-05-23 12:47:15-main[ mainid]  INFO  Selenium:36 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-05-23 12:48:11-main[ mainid]  INFO  Selenium:29 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 12:48:11-main[ mainid]  INFO  Selenium:30 -Site opened successfully
+2020-05-23 12:48:20-main[ mainid]  INFO  Selenium:36 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-05-23 12:49:09-main[ mainid]  INFO  Selenium:29 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 12:49:09-main[ mainid]  INFO  Selenium:30 -Site opened successfully
+2020-05-23 12:49:18-main[ mainid]  INFO  Selenium:36 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-05-23 12:50:03-main[ mainid]  INFO  Selenium:29 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 12:50:03-main[ mainid]  INFO  Selenium:30 -Site opened successfully
+2020-05-23 12:50:12-main[ mainid]  INFO  Selenium:36 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-05-23 13:18:01-main[ mainid]  INFO  Selenium:32 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 13:18:01-main[ mainid]  INFO  Selenium:33 -Site opened successfully
+2020-05-23 13:18:11-main[ mainid]  INFO  Selenium:39 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-05-23 13:19:10-main[ mainid]  INFO  Selenium:32 -Current url is https://www.google.com/intl/en-GB/gmail/about/
+2020-05-23 13:19:10-main[ mainid]  INFO  Selenium:33 -Site opened successfully
+2020-05-23 13:19:20-main[ mainid]  INFO  Selenium:39 -Current url is https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
