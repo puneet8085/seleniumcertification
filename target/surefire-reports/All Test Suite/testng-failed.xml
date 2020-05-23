@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="test1(failed)">
+    <parameter name="firstname" value="puneet"/>
+    <parameter name="password" value="tester@123"/>
+    <parameter name="confirmpassword" value="tester@123"/>
+    <parameter name="lastname" value="sharma"/>
+    <parameter name="username" value="puneetnikku099"/>
+    <classes>
+      <class name="Selenium">
+        <methods>
+          <include name="FIllDetailsFromExcelAndWriteInExcel"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Selenium -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

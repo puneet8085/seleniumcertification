@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="test1">
+       <parameter name="firstname" value="puneet"/>
+        <parameter name="lastname" value="sharma"/>
+        <parameter name="username" value="puneetnikku099"/>
+        <parameter name="password" value="tester@123"/>
+        <parameter name="confirmpassword" value="tester@123"/>
+
+
+
+
+        <classes>
+            <class name ="Selenium">
+                <methods>
+                    <include name="FIllDetailsFromExcelAndWriteInExcel"/>
+                </methods>
+            </class>
+            <
+        </classes>
+    </test>
+</suite>
