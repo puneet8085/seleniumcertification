@@ -1,4 +1,5 @@
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.formula.functions.Column;
 import org.apache.poi.ss.usermodel.Cell;
@@ -28,6 +29,9 @@ private Logger logger;
         driver.get("https://www.google.com/intl/en-GB/gmail/about/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+
+        //if you getting logger error that appender is not defined for class then add below line
+        //BasicConfigurator.configure();
         logger=Logger.getLogger(this.getClass());
         logger.info("Current url is "+driver.getCurrentUrl());
         logger.info("Site opened successfully");
@@ -93,6 +97,9 @@ public void  FillDetialsUsingParameter(String firstname,String lastname,String u
 //fill data from excel and write in excel another sheet
     @Test()
     public void FIllDetailsFromExcelAndWriteInExcel() throws IOException {
+
+        //if you are getting error in reading data due to given excel format then change XSSFWorkbook, XSSFSheet with HSSFworkbook and HSSFSheet.
+
         FileInputStream fis = new FileInputStream("e:\\Test_Data.xlsx");
         XSSFWorkbook workbook= new XSSFWorkbook(fis);
         XSSFSheet sheet= workbook.getSheet("Sheet1");

@@ -13,6 +13,7 @@
 
         <classes>
             <class name ="Selenium">
+
             </class>
         </classes>
     </test>
