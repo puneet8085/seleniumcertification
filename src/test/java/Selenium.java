@@ -32,6 +32,9 @@ private Logger logger;
 
         //if you getting logger error that appender is not defined for class then add below line
         //BasicConfigurator.configure();
+        //if it does't work then create a new properties file log4j.properties and copy same text as present in this project log4j.properties file
+
+
         logger=Logger.getLogger(this.getClass());
         logger.info("Current url is "+driver.getCurrentUrl());
         logger.info("Site opened successfully");
